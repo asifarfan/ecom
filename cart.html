@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" type="text/css"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <title>Products Cart</title>
+</head>
+<body>
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo.png">
+        </div>
+         <nav>
+            <ul id="menuitems">
+                <li><a href="">HOME</a></li>
+                <li><a href="">PRODUCTS</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">ACCOUNT</a></li>
+            </ul>
+         </nav>
+         <img src="cart.png" class="cart" width="7%">
+         <img src="menu.png" class="menu" onclick="menutoggle()" >
+    </div>
+</div>
+
+<div class="categories cartpg">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+        </tr>
+
+        <tr>
+        <td>
+            <div class="cartinfo">
+                <img src="buy-1.jpg" alt="">
+            <div>
+            <h3>Red Printed T-shirt</h3>
+            <p class="tk">Price: $450.00</p>
+            <a href="">Remove</a>
+        </div>
+        </div>
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>$400.00tk</td>
+    </tr>
+    <tr>
+        <td>
+            <div class="cartinfo">
+                <img src="buy-2.jpg" alt="">
+            <div>
+            <h3>Customized black shoe</h3>
+            <p class="tk">Price: $3400.00tk</p>
+            <a href="">Remove</a>
+        </div>
+        </div>
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>$3400.00tk</td>
+    </tr>
+    <tr>
+        <td>
+            <div class="cartinfo">
+                <img src="buy-3.jpg" alt="">
+            <div>
+            <h3>Black pant</h3>
+            <p class="tk">Price: $500.00tk</p>
+            <a href="">Remove</a>
+        </div>
+        </div>
+        </td>
+        <td><input type="number" value="1"></td>
+        <td>$500.00tk</td>
+    </tr>
+    </table>
+
+<div class="totalprice">
+    <table>
+        <tr>
+            <td>Subtotal</td>
+            <td>$4300.00Tk</td>
+        </tr>
+        <tr>
+            <td>Tax</td>
+            <td>$50.00Tk</td>
+        </tr>
+        <tr>
+            <td>Total</td>
+            <td>$4350.00Tk</td>
+        </tr>
+    </table>
+</div>
+
+
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="foot1">
+                <h3>Download our App</h3>
+                <p class="down">Download App for Android and ios mobile phone.</p>
+                <div class="applogo">
+                    <img src="play-store.png" alt="">
+                    <img src="app-store.png" alt="">
+                </div>
+            </div>
+            <div class="foot2">
+                <img src="logo-white.png" alt="">
+                <p class="red">Our purpose is to sustainably make the pleasure and benefits of sports accessible to the many.</p>
+            </div>
+            <div class="foot3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="foot4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copy">Ⓒ Copyright 2023 - Red Store.</p>
+    </div>
+</div>
+
+<script>
+    var menuitems = document.getElementById("menuitems");
+
+    menuitems.style.maxHeight="0px";
+
+    function menutoggle(){
+        if(menuitems.style.maxHeight=="0px")
+        {
+            menuitems.style.maxHeight= "200px";
+        }
+        else{
+            menuitems.style.maxHeight="0px";
+        }
+    }
+</script>
+
+</body>
+</html>

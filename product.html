@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" type="text/css"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <title>Products</title>
+</head>
+<body>
+    <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="logo.png">
+        </div>
+         <nav>
+            <ul id="menuitems">
+                <li><a href="">HOME</a></li>
+                <li><a href="">PRODUCTS</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">ACCOUNT</a></li>
+            </ul>
+         </nav>
+         <img src="cart.png" class="cart" width="25px" height="20px">
+         <img src="menu.png" class="menu" onclick="menutoggle()" >
+    </div>
+</div>
+
+<div class="categories">
+    <div class="row r2">
+        <h2>All Products.</h2>
+        <select>
+            <option>Default Shorting</option>
+            <option>Short by price</option>
+            <option>Short by popularity</option>
+            <option>Short by rating</option>
+            <option>short by sale</option>
+        </select>
+    </div>
+
+
+    <div class="row">
+        <div class="col4">
+            <img src="product-1.jpg" alt="">
+            <h4>Red Printed T-shirt</h4>
+            <div class="rating">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-regular fa-star"></i>
+            </div>
+            <p class="tk">$400.00TK</p>
+        </div>
+        <div class="col4">
+            <img src="product-2.jpg" alt="">
+            <h4>Customized Black shoe</h4>
+            <div class="rating">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+            <p class="tk">$400.00TK</p>
+        </div>
+        <div class="col4">
+            <img src="product-3.jpg" alt="">
+            <h4>Black Pant</h4>
+            <div class="rating">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-regular fa-star"></i>
+            </div>
+            <p class="tk">$400.00TK</p>
+        </div>
+        <div class="col4">
+            <img src="product-4.jpg" alt="">
+            <h4>Blue T-shirt</h4>
+            <div class="rating">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+            <p class="tk">$400.00TK</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col4">
+            <img src="product-5.jpg" alt="">
+            <h4>Addidas Shoe</h4>
+            <div class="rating">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-regular fa-star"></i>
+            </div>
+            <p class="tk">$400.00TK</p>
+        </div>
+        <div class="col4">
+            <img src="product-6.jpg" alt="">
+            <h4>Black printed T-shirt</h4>
+            <div class="rating">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+            <p class="tk">$400.00TK</p>
+        </div>
+        <div class="col4">
+            <img src="product-7.jpg" alt="">
+            <h4>Socks</h4>
+            <div class="rating">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-regular fa-star"></i>
+            </div>
+            <p class="tk">$400.00TK</p>
+        </div>
+        <div class="col4">
+            <img src="product-8.jpg" alt="">
+            <h4>Fossil Watch</h4>
+            <div class="rating">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+            <p class="tk">$400.00TK</p>
+        </div>
+        <div class="col4">
+            <img src="product-9.jpg" alt="">
+            <h4>Roadster watch</h4>
+            <div class="rating">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-regular fa-star"></i>
+            </div>
+            <p class="tk">$400.00TK</p>
+        </div>
+        <div class="col4">
+            <img src="product-10.jpg" alt="">
+            <h4>Premium shoe</h4>
+            <div class="rating">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+            <p class="tk">$400.00TK</p>
+        </div>
+        <div class="col4">
+            <img src="product-11.jpg" alt="">
+            <h4>Normal Shoe</h4>
+            <div class="rating">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-regular fa-star"></i>
+            </div>
+            <p class="tk">$400.00TK</p>
+        </div>
+        <div class="col4">
+            <img src="product-12.jpg" alt="">
+            <h4>Black Joggers</h4>
+            <div class="rating">
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-sharp fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+            <p class="tk">$400.00TK</p>
+        </div>
+    <div class="pagebtn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594</span>
+    </div>
+    
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="foot1">
+                <h3>Download our App</h3>
+                <p class="down">Download App for Android and ios mobile phone.</p>
+                <div class="applogo">
+                    <img src="play-store.png" alt="">
+                    <img src="app-store.png" alt="">
+                </div>
+            </div>
+            <div class="foot2">
+                <img src="logo-white.png" alt="">
+                <p class="red">Our purpose is to sustainably make the pleasure and benefits of sports accessible to the many.</p>
+            </div>
+            <div class="foot3">
+                <h3>Useful Links</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="foot4">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copy">Ⓒ Copyright 2023 - Red Store.</p>
+    </div>
+</div>
+
+<script>
+    var menuitems = document.getElementById("menuitems");
+
+    menuitems.style.maxHeight="0px";
+
+    function menutoggle(){
+        if(menuitems.style.maxHeight=="0px")
+        {
+            menuitems.style.maxHeight= "200px";
+        }
+        else{
+            menuitems.style.maxHeight="0px";
+        }
+    }
+</script>
+
+</body>
+</html>
